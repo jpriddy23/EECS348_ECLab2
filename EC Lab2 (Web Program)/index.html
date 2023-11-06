@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Declaring character encoding -->
+    <meta charset="UTF-8">
+    <!-- Creating page title -->
+    <title>Web Application</title>
+    <!-- Link to styles.css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Creating a heading for CSS Font Control -->
+    <h1>CSS Font Control</h1>
+
+    <div id="control-container">
+        <!-- Creating a label for color input -->
+        <label for="color-input">Paragraph and Border Color:</label>
+        <!-- Creating a text input for color with placeholder text -->
+        <input type="text" id="color-input" placeholder="Enter RGB values">
+        <!-- Creating a label for border input -->
+        <label for="border-input">Border Width:</label>
+        <!-- Creating a number input for border width with placeholder text -->
+        <input type="number" id="border-input" placeholder="Enter border width in pixels">
+        <!-- Creating a button to apply CSS changes -->
+        <button id="apply-button">Apply CSS</button>
+    </div>
+    <!-- Sample paragraph to apply CSS to -->
+    <p id="myparagraph">
+        text text text text text text text text text text text text text text text text
+        text text text text text text text text text text text text text text text text
+    </p>
+
+    <!-- Creating a heading for Multiplication Table -->
+    <h2>Multiplication Table</h2>
+    <!-- Creating a form with the POST method, sending data to table.php -->
+    <form method="POST" action="table.php">
+        <!-- Creating input field for the user to enter a number -->
+        Enter a number: <input type="text" name="number">
+        <!-- Creating a submit button to trigger form submission -->
+        <input type="submit" value="Create Table">
+    </form>
+
+    <!-- Link to script.js for CSS Font Control functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
